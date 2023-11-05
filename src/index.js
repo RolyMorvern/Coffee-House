@@ -13,8 +13,13 @@ import Shop from "./Shop";
 import Product from "./components/ShopItem/ShopItem";
 import ProductList from "./ProductList";
 import Cart from "./Cart";
+import ErrorPage from "./Error";
 
 const router = createBrowserRouter([
+  {
+    path: "*",
+    element: <ErrorPage />,
+  },
   {
     path: "/",
     element: <App />,
