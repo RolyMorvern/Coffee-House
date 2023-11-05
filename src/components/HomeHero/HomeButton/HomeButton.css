@@ -1,0 +1,35 @@
+.home-button-link {
+	text-decoration: none;
+}
+.home-button {
+	margin-top: 15px;
+	padding-left: 15px;
+	height: 35px;
+	color: white;
+	border: none;
+	border-radius: 12.5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.home-button * {
+	transition: 500ms;
+	display: inline;
+	border: none !important;
+}
+.home-button:hover .home-button-arrow {
+	transform: translate(5px);
+}
+
+@media (max-width: 370px) {
+	#home-contact-form-input {
+		width: 24px !important;		
+	}
+}
+@media (max-width: 300px) {
+	.home-button {
+		width: 225px !important;
+		text-align: center !important;
+	}
+}

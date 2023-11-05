@@ -1,0 +1,14 @@
+.shop-main-btn {
+	border: none;
+	border-radius: 15px;
+	background: #8C6046;
+	color: white;
+	padding: 7.5px 15px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	height: 40px;
+}
+.shop-main-btn-text {
+	padding-left: 5px;
+}

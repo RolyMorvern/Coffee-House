@@ -1,0 +1,130 @@
+#shop-filter-modal-container {
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: -2;
+}
+#shop-filter-modal {
+	display: none;
+	width: 50%;
+	height: 50%;
+	background-color: #BFA399;
+	border-radius: 15px;
+	padding: 15px;
+	position: relative;
+}
+#shop-filter-modal-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer; 
+	font-size: 2em;
+}
+.shop-filter-modal-input {
+	border: none;
+	border-radius: 12.5px;
+	padding: 5px;
+	padding-left: 15px;
+	font-family: "numans", sans-serif;
+}
+.shop-filter-modal-input-price {
+	width: 15%;
+}
+.shop-filter-modal-input-price::-webkit-inner-spin-button,
+.shop-filter-modal-input-price::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.shop-filter-modal-input-price {
+    -moz-appearance: textfield;
+}
+.shop-filter-modal-input-submit {
+	padding-right: 15px;
+	background: #373B40;
+	color: white;
+	cursor: pointer; 
+}
+.shop-filter-modal-input-submit[value="Remove Filters"] {
+	margin-left: 25px;
+	background: #8C6046;
+}
+#items {
+	text-align: center;
+}
+#items p, h1 {
+	margin: 10px !important;
+	color: white;
+}
+#shop-btn-container {
+	margin-top: 10px;
+	width: 20%;
+	display: flex;
+	justify-content: space-between;
+}
+#shop-cards-container {
+	margin-top: 25px;
+	margin-right: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+#shop-btn-sort {
+	padding-right: 50px;
+	position: relative;
+}
+#shop-sort-menu {
+	display: none;
+	min-width: 140%;
+	position: absolute;
+	border-radius: 15px;
+	background: #0D0D0D;
+}
+.shop-sort-item {
+	padding-bottom: 5px;
+	border-bottom: 1px solid white;
+	cursor: pointer;
+}
+@media (max-width: 1050px) {
+	#shop-btn-container {
+		width: 300px;
+	}
+}
+@media (max-width: 560px) {
+	.shop-filter-modal-input-submit[value="Remove Filters"] {
+		margin-left: 0px;
+		margin-top: 15px;
+		display: block;
+	}
+}
+@media (max-width: 500px) {
+	#shop-filter-modal-keyword {
+		margin-top: 10px;
+	}
+	#shop-filter-modal-price-label {
+		display: block;
+		margin-bottom: 10px;
+	}
+	#shop-btn-container {
+		width: calc(100% - 40px);
+	}
+	#shop-cards-container {
+		justify-content: center;
+	}
+	#shop-btn-sort {
+		padding-right: 0px;
+	}
+}
+@media (max-width: 400px) {
+	.shop-filter-modal-input[name="keyword"] {
+		width: 70%;
+	}
+}
+@media (max-width: 300px) {
+	.shop-filter-modal-input[name="keyword"] {
+		width: 70%;
+	}
+}

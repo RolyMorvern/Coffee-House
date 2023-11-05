@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=IM+Fell+French+Canon+SC&family=Numans&family=Spectral+SC:wght@700&display=swap');
+::-moz-selection {
+  color: black;
+  background: #967259;
+}
+
+::selection {
+  color: black;
+  background: #967259;
+}
+html {
+	scroll-behavior: smooth;
+}
+.fascinate {
+	font-family: "Fascinate", sans-serif;
+}
+.numans {
+	font-family: "Numans", sans-serif;
+}
+h1 {
+	font-size: 3.75vw;
+	color: white;
+}
+h1, h2, h3 {
+	font-family: "Spectral SC"
+}
+button {
+	font-family: "IM Fell French Canon SC";
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.container {
+	padding-top: 100px;
+	padding-left: 40px;
+}
+.container-no-top {
+	padding-left: 40px;
+}
+button {
+	font-size: 1.1em;
+}
+.backdrop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 102vh;
+	background: rgba(0, 0,0, 0.9);
+	z-index: 4;
+}
+@media (max-width: 1600px) {
+	h1 {
+		font-size: 75px;
+	}
+}
+@media (max-height: 850px) {
+	h1 {
+		font-size: 55px;
+	}
+}
+@media (max-width: 650px) {
+	h1 {
+		font-size: 45px;
+	}
+}
+@media (max-width: 375px) {
+	h1 {
+		font-size: 35px;
+	}   
+}

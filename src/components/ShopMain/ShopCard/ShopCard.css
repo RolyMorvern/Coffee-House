@@ -1,0 +1,38 @@
+.shop-card {
+	text-decoration: none;
+	color: black;
+	background: #BFA399;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 200px;
+}
+.shop-card:hover .shop-card-arrow {
+	transform: translateX(10px);
+}
+.shop-cart-image {
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.shop-card-name {
+	margin-top: 7.5px;
+	margin-bottom: 5px;
+}
+.shop-card-price {
+	color: black !important;
+}
+.shop-card-icons {
+	font-size: 1.75em;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 15px;
+}
+.shop-card-arrow {
+	transition: 500ms;
+}

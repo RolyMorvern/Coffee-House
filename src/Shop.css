@@ -1,0 +1,10 @@
+:root {
+	--bg-dark: #373B40;
+	--bg-light: #8C7369;
+}
+#shop-bg {
+	background-color: var(--bg-dark);
+	min-height: 100vh;
+	width: 100vw;
+	border: 1px solid transparent;
+}

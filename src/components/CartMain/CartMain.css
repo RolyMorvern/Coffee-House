@@ -1,0 +1,25 @@
+#cart-header {
+	text-align: center;
+}
+#cart-card-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#cart-subtotal-container {
+	width: calc(70% + 16px);
+	text-align: right !important;
+	margin: 0 auto;
+	color: white;
+}
+#cart-subtotal-number {
+	text-decoration-line: underline;
+	text-decoration-style: "solid";
+	text-decoration-color: rgba(255,255,255,1);
+	text-decoration-thickness: 2.5px;
+}
+@media (max-width: 500px) {
+	#cart-subtotal-container {
+		width: calc(80% + 16px);
+	}
+}

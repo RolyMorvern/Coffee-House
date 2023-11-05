@@ -1,0 +1,27 @@
+.cart-card {
+	margin-bottom: 40px;
+	width: 70%;
+	height: 80px;
+	border: 1px solid white;
+	border-radius: 15px;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+.cart-card-image {
+	height: 100%;
+}
+.cart-card-delete {
+	font-size: 1.75em;
+	cursor: pointer;
+}
+@media (max-width: 500px) {
+	.cart-card {
+		width: 80%;
+	}
+	.cart-card-image {
+		display: none;
+	}
+}
