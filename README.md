@@ -6,9 +6,9 @@ Welcome to Coffee House, a web application for coffee enthusiasts built with Rea
 
 Coffee House features multiple pages with a responsive design, created mainly with CSS. The project includes the following key components:
 
-- **Home Page:** A visually appealing landing page designed using CSS.
+- **Home Page:** A visually appealing landing page designed mainly using CSS.
 - **Shop Page:** Dynamically fetches data from a JSON file to display coffee products.
-- **Card Pages:** Each card on the shop page leads to a dedicated page with detailed information.
+- **Card Pages:** Each card on the shop page leads to a dedicated page with detailed information, also created dynamically from a JSON file.
 - **Cart Page:** Implemented using Redux Toolkit to manage the shopping cart.
 
 ## Live Demo
