@@ -15,7 +15,7 @@
 	width: 100vw;
 }
 #home-contact-bubbles {
-	height: 80vh;
+	max-height: 50vh;
 	position: absolute;
 	right: 0;
 	z-index: 0;
@@ -52,11 +52,6 @@
 	border-radius: 12.5px;
 	font-size: 1.15em;
 	font-family: "fascinate"
-}
-@media (min-height: 700px) {
-	#home-contact-bubbles {
-		height: 50vw;
-	}
 }
 @media (max-width: 650px) {
 	#home-contact-form * {
