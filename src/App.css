@@ -12,7 +12,7 @@
 .contact-bg {
     border: 0px solid transparent;
     background: #0D0D0D;  
-    height: auto !important;  
+    min-height: 100vh !important;  
 }
 @media (min-width: 1700px) {
     .hero-bg {
